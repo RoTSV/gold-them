@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 5px;
+}
+.header {
+    display: block;
+    background-image: url(../img/header-backg.png);
+    background-color: #4a4644;
+    height: 600px;
+    padding-top: 40px;
+    
+}
+.head-menu {
+    display: block;
+    border: 1px solid #c5b916;
+    border-radius: 5px;
+    box-shadow: 0 0 18px rgb(184, 190, 158);
+    width: 800px;
+    margin-left: 225px;
+    
+    
+}
+.head-menu ul {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    
+}
+.head-menu ul li {
+    display: inline-block;
+    padding-right: 30px;
+    
+    
+}
+.head-menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-style: "Algerian", "Arial Black", "Britannic Bold", sans-serif;
+}
+.logo {
+    display: inline;
+    font-size: 25px;
+    font-family: "Brush Script MT", sans-serif, cursive, fantasy;
+    color: #81815b;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    
+    
+    
+}
+.accost-home {
+    display: block;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: inset 0 0 40px 1px #e4df96;
+    text-align: center;
+    padding: 80px 10px;  
+}
+.accost-home h4 {
+    font-family: "Brush Script MT", sans-serif, cursive, fantasy;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.accost-home h1 {
+    text-shadow:  0 2px  5px #7a7a6a;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.buttom-header {
+    width: 240px;
+    height: 65px;
+    margin-top: 10px;
+    background-color: #3d3d3b;
+    opacity: 0.4;
+    border: 1px solid rgb(83, 83, 63);
+    border-radius: 5px;
+    box-shadow: #f1e7aa inset 0 0 10px 2px;
+    text-align: center;
+}
+.buttom-header a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #ffffff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Bernard MT Condensed", sans-serif, cursive, fantasy;
+}
+.div-services {
+    display: block;
+    border: #3d3d3b solid 1px;
+    height: 400px;
+}
+.div-services h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Bell MT", sans-serif, cursive, fantasy;
+    padding-top: 20px;
+    text-align: center;
+}
+.div-services p {
+    margin-top: -25px;
+    text-align: center;
+}
