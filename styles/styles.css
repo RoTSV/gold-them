@@ -1,31 +1,40 @@
 body {
     margin: 0;
-    padding: 5px;
+    padding: 0;
 }
-.header {
-    display: block;
+header{
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-image: url(../img/header-backg.png);
-    background-color: #4a4644;
+    background-color: #4a4644; 
     height: 600px;
-    padding-top: 40px;
 }
 .head-menu {
-    display: block;
     border: 1px solid #c5b916;
     border-radius: 5px;
     box-shadow: 0 0 18px rgb(184, 190, 158);
-    width: 800px;
-    margin-left: 225px;
+    height: 45px;
 }
+.accost-home {
+    box-shadow: inset 0 0 40px 1px #e4df96;
+    text-align: center;  
+    border-radius: 5px;
+    height: 400x;
+} 
 .head-menu ul {
     list-style-type: none;
     display: inline-block;
-    position: relative;
-    left: 250px;
+    
+    
 }
 .head-menu ul li {
     display: inline-block;
-    padding-right: 30px;   
+       
 }
 .head-menu ul li :hover {
     color: #b6b667;
@@ -49,20 +58,10 @@ body {
     display: inline;
     font-size: 25px;
     font-family: "Brush Script MT", sans-serif, cursive, fantasy;
-    color: #81815b;
-    margin-left: 20px;
-    margin-bottom: 2px;
+    color: #81815b; 
 }
-.accost-home {
-    display: block;
-    margin-top: 40px;
-    margin-left: 5px;
-    margin-right: 5px;
-    box-shadow: inset 0 0 40px 1px #e4df96;
-    text-align: center;
-    padding: 80px 10px;  
-    border-radius: 5px;
-}
+
+
 .accost-home h4 {
     font-family: "Brush Script MT", sans-serif, cursive, fantasy;
     color: rgb(255, 255, 255);
@@ -75,8 +74,6 @@ body {
     font-size: 40px;
 }
 .buttom-header {
-    width: 232px;
-    height: 65px;
     background-color: #3d3d3b;
     opacity: 0.4;
     border: #222220 1px solid;
