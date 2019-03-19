@@ -2,39 +2,34 @@ body {
     margin: 0;
     padding: 0;
 }
-header{
-    /*display: flex;*/
-    /*justify-content: center;*/
-}
 .menu-logo {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: column ;
+    align-items: center;
     background-image: url(../img/header-backg.png);
     background-color: #4a4644; 
     height: 600px;
 }
 .head-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     border: 1px solid #c5b916;
     border-radius: 5px;
-    box-shadow: 0 0 18px rgb(184, 190, 158);
-    height: 45px;
-}
-.accost-home {
-    box-shadow: inset 0 0 40px 1px #e4df96;
-    text-align: center;  
-    border-radius: 5px;
-    height: 400x;
+    box-shadow: 0 0 26px #d1daac;
+    height: 50px;
+    width: 60%;
+    padding: 0 20px;
 } 
 .head-menu ul {
     list-style-type: none;
-    display: inline-block;
-    
-    
+    display: inline-block;  
 }
 .head-menu ul li {
     display: inline-block;
-       
+    padding-right: 15px;     
 }
 .head-menu ul li :hover {
     color: #b6b667;
@@ -55,31 +50,45 @@ header{
     font-style: "Algerian", "Arial Black", "Britannic Bold", sans-serif;
 }
 .logo {
-    display: inline;
+    display: inline-block;
     font-size: 25px;
     font-family: "Brush Script MT", sans-serif, cursive, fantasy;
-    color: #81815b; 
+    color: #c5b916; 
+    padding-bottom: 2px;
 }
-
-
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accost-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    border-radius: 5px;
+    height: 400px;
+    width: 90%;
+}
 .accost-home h4 {
     font-family: "Brush Script MT", sans-serif, cursive, fantasy;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
-    font-size: 40px;
+    font-size:40px;
 }
 .accost-home h1 {
-    text-shadow:  0 2px  5px #7a7a6a;
+    margin-top: -20px;
+    text-shadow:  0 2px  5px #c5b916;
     text-transform: uppercase;
     font-size: 40px;
 }
 .buttom-header {
     background-color: #3d3d3b;
-    opacity: 0.4;
+    opacity: 0.6;
     border: #222220 1px solid;
     border-radius: 2px;
-    box-shadow: #e0cd77 0 0 10px 1px;
-    text-align: center;
+    box-shadow: #c5b916 0 0 10px 1px;  
 }
 .buttom-header a {
     width: 100%;
@@ -94,42 +103,81 @@ header{
 }
 .buttom-header :hover  {
     color: #131212;
-    background-color: #e0cd77;
+    background-color: #c5b916;
     opacity: 0.4; 
 }
 .div-services {
-    display: block;
-    padding-bottom: 10px;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.div-services h2 {
-    font-size: 30px;
+.services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.services-text h2 {
+    font-size: 2em;
     text-transform: uppercase;
-    font-family: "Bell MT", sans-serif, cursive, fantasy;
-    padding-top: 20px;
-    text-align: center;
 }
-.div-services p {
-    margin-top: -25px;
-    text-align: center;
+.div-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px 0;
 }
 .block-inf {
-    display: inline-block;
-    box-shadow: #dbdbd9 0 0 50px 5px;
     text-align: center;
-    line-height: 1.5em;
-    margin: 90px 0 20px 88px;
-    padding: 10px;
+    padding: 20px;
 }
-.block-inf h4 {
-    font-family: "Bahnschrift SemiBold", sans-serif, cursive, fantasy;
-    font-size: 1.2em;
+.div-portfolio {
+    background-color: #f7f7f7;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 60px ;
+}  
+.block-portfolio-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.block-portfolio-head h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.block-portfolio-head p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: -20px;
+}
+.block-portfolio-foto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block-portfolio-foto h5 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
     text-transform: capitalize;
-    padding-bottom: 10px;
-    margin-top: 5px;
+     
 }
-.block-inf p {
-    text-align: center;
-    font-size: 1.2em;
-    font-family: "Microsoft PhagsPa", sans-serif, cursive, fantasy;   
+.block-portfolio-foto p {
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    line-height: 1.2;  
+    margin-top: -20px; 
 }
