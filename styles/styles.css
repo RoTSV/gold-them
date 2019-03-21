@@ -28,7 +28,9 @@ a {
 } 
 .head-menu ul {
     list-style-type: none;
-    display: inline-block;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
 }
 .head-menu ul li {
     display: inline-block;
@@ -449,9 +451,7 @@ form {
 }
 footer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px 0;
-    border: #131212 1px solid;
+    flex-wrap: wrap;
+    padding: 20px 0; 
 }
